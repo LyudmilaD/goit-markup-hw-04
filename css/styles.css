@@ -22,8 +22,33 @@
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 /*=============HEADER=============*/
+
+.container {
+  width: 1200 px;
+  padding: 0 15 px;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .logo {
   font-family: 'Raleway', sans-serif;
