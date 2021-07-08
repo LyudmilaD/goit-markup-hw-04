@@ -37,17 +37,22 @@ ul {
 /*=============HEADER=============*/
 
 .container {
-  width: 1200 px;
-  padding: 0 15 px;
+  width: 1200px;
   margin: 0 auto;
 }
 .navigation {
+  padding-left: 215px;
+  padding-top: 24px;
   display: flex;
-  justify-content: flex-end;
+}
+.menu {
+  display: flex;
+  margin-left: 93px;
 }
 .contacts {
   display: flex;
   justify-content: flex-end;
+  margin-left: auto;
 }
 
 .logo {
@@ -61,6 +66,10 @@ ul {
 .web-logo {
   color: var(--title-text-color);
 }
+.menu-item:not(:first-child) {
+  margin-left: 50px;
+}
+
 .menu-link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -330,10 +339,6 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
-}
- {
-  background-color: #f5f4fa;
-  cursor: pointer;
 }
 
 .modal-btn-port-blue:hover,
