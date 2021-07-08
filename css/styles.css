@@ -38,11 +38,14 @@ ul {
 
 .container {
   width: 1200px;
-  margin: 0 auto;
+}
+.header-container {
+  display: flex;
 }
 .navigation {
   padding-left: 215px;
   padding-top: 24px;
+  padding-bottom: 25px;
   display: flex;
 }
 .menu {
@@ -123,7 +126,13 @@ ul {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-
+.contacts-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contacts-item:not(:first-child) {
+  padding-left: 50px;
+}
 /*=============END HEADER=============*/
 
 /*=============HERO=============*/
@@ -148,10 +157,12 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  padding-top: 200px;
+  width: 696px;
+  margin: 0 auto;
+  padding-bottom: 30px;
   color: var(--third-text-color);
 
   background-color: var(--secondary-background-color);
@@ -172,7 +183,6 @@ ul {
   font-size: 16px;
   line-height: 1.87;
 
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -180,6 +190,7 @@ ul {
   color: var(--third-text-color);
   background-color: var(--title-text-color);
   margin: 0 auto;
+  margin-bottom: 200px;
 }
 /*=============END HERO=============*/
 /*=============FEATURES=============*/
