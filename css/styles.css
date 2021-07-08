@@ -38,6 +38,15 @@ ul {
 
 .container {
   width: 1200px;
+  padding: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.header {
+  border: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -191,10 +200,24 @@ ul {
   background-color: var(--title-text-color);
   margin: 0 auto;
   margin-bottom: 200px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 /*=============END HERO=============*/
 /*=============FEATURES=============*/
 
+.features {
+  padding-right: 215px;
+  padding-left: 215px;
+}
+.features-item {
+  display: flex;
+}
+.advantages:not(:first-child) {
+  margin-left: 30px;
+}
 .advantages-item {
   font-family: var(--main-font);
   font-weight: 700;
@@ -215,6 +238,20 @@ ul {
 }
 /*=============END FEATURES=============*/
 /*=============EXAMPLES=============*/
+.examples {
+  padding-right: 215px;
+  padding-left: 215px;
+}
+
+.examples-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.examples-item:not(:first-child) {
+  margin-left: 30px;
+}
 .examples-item-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -222,6 +259,7 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 
   color: var(--primary-text-color);
 }
@@ -237,6 +275,10 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+}
+.examples-picture {
+  display: flex;
+  justify-content: center;
 }
 
 .team-item {
