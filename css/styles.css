@@ -49,6 +49,7 @@ ul {
 }
 
 .header {
+  display: flex;
   align-items: center;
   border: 1px solid #ececec;
 }
@@ -60,8 +61,8 @@ ul {
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
-  align-items: center;
 }
+
 .menu {
   display: flex;
   margin-left: 93px;
@@ -69,13 +70,13 @@ ul {
 .contacts { 
   display: flex;
   margin-left: auto;
-  align-items: center;
+  
 }
 .contacts-item {
   display: flex;
   align-items: center;
-  
 }
+
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -148,6 +149,8 @@ ul {
 .contacts-item {
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 .contacts-item:not(:first-child) {
   padding-left: 50px;
@@ -364,6 +367,19 @@ ul {
 
 .contacts {
 flex-direction: column;
+}
+
+
+.desk-address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.desk-mail {
+margin-bottom: 9px;
+}
+.desk-tel {
+margin-bottom: 9px;
 }
 
 .logo-footer {
