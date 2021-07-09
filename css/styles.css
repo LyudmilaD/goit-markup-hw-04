@@ -38,7 +38,9 @@ ul {
 
 .container {
   width: 1200px;
-  padding: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 .section {
   padding-top: 94px;
@@ -56,6 +58,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
+  align-items: center;
 }
 .menu {
   display: flex;
@@ -208,10 +211,6 @@ ul {
 /*=============END HERO=============*/
 /*=============FEATURES=============*/
 
-.features {
-  padding-right: 215px;
-  padding-left: 215px;
-}
 .features-item {
   display: flex;
 }
@@ -239,8 +238,9 @@ ul {
 /*=============END FEATURES=============*/
 /*=============EXAMPLES=============*/
 .examples {
-  padding-right: 215px;
   padding-left: 215px;
+  padding-right: 215px;
+  
 }
 
 .examples-item {
@@ -252,6 +252,7 @@ ul {
 .examples-item:not(:first-child) {
   margin-left: 30px;
 }
+
 .examples-item-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -264,15 +265,47 @@ ul {
   color: var(--primary-text-color);
 }
 
+
 /*============END EXAMPLES=============*/
 /*============TEAM=============*/
+.team {
+  padding: 0 215px;
+  background: var(--third-background-color);
+}
+}
+.container.img {
+  padding-top: 186px;
+  padding-bottom: 94px;
+}
+.team-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+  .img-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+.team-picture {
+  background: var(--third-text-color);
+  padding-bottom: 30px;
+}
+
+}
+.team-item:not(:first-child) {
+  margin-left: 30px;
+}
 .team-item-title {
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+ 
 
   color: var(--primary-text-color);
 }
@@ -281,7 +314,8 @@ ul {
   justify-content: center;
 }
 
-.team-item {
+.container.img {
+ 
   background: var(--third-background-color);
 }
 
@@ -308,8 +342,21 @@ ul {
 
 /*============END TEAM=============*/
 /*============FOOTER=============*/
+
+
+
 .footer {
+  
+  padding-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+
   background-color: var(--secondary-background-color);
+}
+
+.contacts {
+flex-direction: column;
 }
 
 .logo-footer {
