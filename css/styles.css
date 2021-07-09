@@ -41,6 +41,7 @@ ul {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
+
 }
 .section {
   padding-top: 94px;
@@ -48,6 +49,7 @@ ul {
 }
 
 .header {
+  align-items: center;
   border: 1px solid #ececec;
 }
 .header-container {
@@ -58,7 +60,6 @@ ul {
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
-  
   align-items: center;
 }
 .menu {
@@ -67,12 +68,13 @@ ul {
 }
 .contacts { 
   display: flex;
-  
   margin-left: auto;
   align-items: center;
 }
 .contacts-item {
+  display: flex;
   align-items: center;
+  
 }
 
 .logo {
@@ -218,6 +220,7 @@ ul {
 
 .features-item {
   display: flex;
+  align-items: center;
 }
 .advantages:not(:first-child) {
   margin-left: 30px;
@@ -243,8 +246,7 @@ ul {
 /*=============END FEATURES=============*/
 /*=============EXAMPLES=============*/
 .examples {
-  padding-left: 215px;
-  padding-right: 215px;
+  align-items: center;
   
 }
 
