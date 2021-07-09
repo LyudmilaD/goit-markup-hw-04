@@ -51,22 +51,25 @@ ul {
 .header {
   display: flex;
   align-items: center;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .header-container {
   display: flex;
   align-items: center;
 }
+
 .navigation {
   display: flex;
-  
 }
 
 .menu {
   display: flex;
   margin-left: 93px;
 }
-.contacts { 
+.contacts-header { 
   display: flex;
   margin-left: auto;
   
@@ -74,12 +77,12 @@ ul {
 .contacts-item {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-left: auto;
 }
 
-
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
+
   margin-right: 93px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -91,13 +94,12 @@ ul {
 .web-logo {
   color: var(--title-text-color);
 }
-.menu-link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
-.menu-item:not(:first-child) {
-  margin-left: 50px;
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 
@@ -155,17 +157,8 @@ ul {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.contacts-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  
-  display: flex;
-  align-items: center;
-}
-.contacts-item:not(:first-child) {
-  padding-left: 50px;
 
-}
+
 /*=============END HEADER=============*/
 
 /*=============HERO=============*/
@@ -376,14 +369,11 @@ ul {
   background-color: var(--secondary-background-color);
 }
 
-.contacts {
-flex-direction: column;
-}
-
 
 .desk-address {
   margin-top: 20px;
   margin-bottom: 9px;
+  flex-direction: column;
 }
 
 .desk-mail {
