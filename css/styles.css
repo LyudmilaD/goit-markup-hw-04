@@ -52,22 +52,27 @@ ul {
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 .navigation {
-  padding-left: 215px;
+  display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
-  display: flex;
+  
   align-items: center;
 }
 .menu {
   display: flex;
   margin-left: 93px;
 }
-.contacts {
+.contacts { 
   display: flex;
-  justify-content: flex-end;
+  
   margin-left: auto;
+  align-items: center;
+}
+.contacts-item {
+  align-items: center;
 }
 
 .logo {
