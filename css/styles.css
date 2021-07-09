@@ -59,8 +59,7 @@ ul {
 }
 .navigation {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  
 }
 
 .menu {
@@ -79,6 +78,9 @@ ul {
 
 
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -89,9 +91,15 @@ ul {
 .web-logo {
   color: var(--title-text-color);
 }
+.menu-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .menu-item:not(:first-child) {
   margin-left: 50px;
 }
+
 
 .menu-link {
   font-family: var(--main-font);
@@ -131,6 +139,7 @@ ul {
 }
 
 .mail-link {
+  margin-left: auto;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -149,11 +158,13 @@ ul {
 .contacts-item {
   padding-top: 32px;
   padding-bottom: 32px;
+  
   display: flex;
   align-items: center;
 }
 .contacts-item:not(:first-child) {
   padding-left: 50px;
+
 }
 /*=============END HEADER=============*/
 
@@ -426,6 +437,7 @@ margin-bottom: 9px;
 /*============END FOOTER=============*/
 
 /*============CONTENT OF PAGE PORTFOLIO=============*/
+
 .menu-link-blue-port {
   font-family: var(--main-font);
   font-weight: 500;
@@ -477,6 +489,7 @@ margin-bottom: 9px;
 /*============END CONTENT OF PAGE PORTFOLIO=============*/
 
 /*============GALLERY OF WORKS=============*/
+
 .img-headline {
   font-family: var(--main-font);
   font-weight: 700;
