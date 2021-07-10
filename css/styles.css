@@ -28,6 +28,13 @@ h3,
 p {
   margin: 0;
 }
+.img {
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -303,7 +310,8 @@ ul {
     margin-bottom: 10px;
   }
 .team-picture {
-  box-shadow: 0px 4 px 0px rgb(0 0 0 / 25%);
+ 
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background: var(--third-text-color);
   padding-bottom: 30px;
 }
@@ -434,6 +442,39 @@ margin-bottom: 9px;
 /*============END FOOTER=============*/
 
 /*============CONTENT OF PAGE PORTFOLIO=============*/
+.content-item {
+  display: flex;
+
+  justify-content: center;  
+
+}
+.modal-btn-item {
+  margin-right: 8px;
+
+}
+.modal-btn-port-blue {
+  margin-right: 8px;
+  margin-left: 22px;
+  margin-bottom: 50px;
+  padding: 6px 22px;
+ 
+}
+
+.modal-btn-port { 
+  margin-right: 8px;
+  margin-left: 22px;
+  margin-bottom: 50px;
+  padding: 6px 22px;
+ 
+
+}
+.modal-btn-port:not(:last-child) {
+margin-right: 8px;
+}
+.modal-btn-item:not(:first-child) {
+margin-left: 8px;
+}
+
 
 .menu-link-blue-port {
   font-family: var(--main-font);
@@ -486,6 +527,26 @@ margin-bottom: 9px;
 /*============END CONTENT OF PAGE PORTFOLIO=============*/
 
 /*============GALLERY OF WORKS=============*/
+.team-project {
+  padding: 20px 24px;
+  border: 1px solid var(--third-background-color);
+  border-top: none;
+}
+
+.gallery {
+  display: flex; 
+  flex-basis: calc(100%-30px/9) ; 
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+
+.gallery-picture {
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
 .img-headline {
   font-family: var(--main-font);
