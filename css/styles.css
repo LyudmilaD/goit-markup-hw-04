@@ -266,7 +266,7 @@ ul {
 /*=============EXAMPLES=============*/
 .examples {
   align-items: center;
-  
+  padding-bottom: 94px;
 }
 
 .examples-item {
