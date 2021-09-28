@@ -137,12 +137,6 @@ ul {
 .mail-link:focus {
   color: var(--title-text-color);
 }
-.mail-link-item::before {
-  position: absolute;
-  width: 16 px;
-  height: 12 px;
-  background: #2196f3;
-}
 
 .tel-link:hover {
   color: var(--title-text-color);
