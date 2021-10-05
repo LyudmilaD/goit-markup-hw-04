@@ -159,6 +159,30 @@ ul {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+.mail-link-item {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.mail-link-item:hover,
+.mail-link-item:focus {
+  color: var(--title-text-color);
+  fill: var(--title-text-color);
+}
+
+.tel-link-item {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+  transform-origin: 0px 0px;
+}
+.tel-link-item:hover,
+.tel-link-item:focus {
+  color: var(--title-text-color);
+  fill: var(--title-text-color);
+}
 
 /*=============END HEADER=============*/
 
@@ -216,18 +240,16 @@ ul {
 
 .modal-btn {
   font-family: var(--main-font);
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-
+  border: 0px;
+  border-radius: 4px;
   color: var(--third-text-color);
   background-color: var(--title-text-color);
-  margin: 0 px;
-  padding: 10px 32px;
 }
 /*=============END HERO=============*/
 /*=============FEATURES=============*/
