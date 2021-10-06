@@ -172,11 +172,11 @@ ul {
 }
 
 .tel-link-item {
-  width: 10px;
+  width: 16px;
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
-  transform-origin: 0px 0px;
+
 }
 .tel-link-item:hover,
 .tel-link-item:focus {
