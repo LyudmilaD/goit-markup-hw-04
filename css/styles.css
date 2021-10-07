@@ -172,7 +172,7 @@ ul {
 }
 
 .tel-link-item {
-  width: 16px;
+  width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
@@ -415,6 +415,12 @@ ul {
 
 .container.img {
   background: var(--third-background-color);
+}
+.soc-icon {
+  margin-right: 10px;
+}
+.list {
+
 }
 
 .img-title {
