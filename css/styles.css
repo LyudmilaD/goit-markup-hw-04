@@ -380,7 +380,6 @@ ul {
   justify-content: space-between;
 }
 .img-title {
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-picture {
@@ -388,7 +387,7 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background: var(--third-text-color);
-  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-picture:first-child {
   margin-left: 0px;
@@ -415,12 +414,55 @@ ul {
 
 .container.img {
   background: var(--third-background-color);
+  
 }
 .soc-icon {
   margin-right: 10px;
+  display: block;
 }
-.list {
+.team-card-description { 
+  height: 168px; 
+  padding-top: 30px;  
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: block;
+}
+.soc-list {
+  display: flex;
+  padding: 0;
+}
+.soc-icon { 
+margin-right: 10px;
+cursor: pointer;
+}
 
+.list {
+  list-style: none;
+  padding-inline-start: 0px;
+  display: flex;
+  justify-content: center;
+}
+.soc-link {
+  display: flex;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+text-decoration: none;
+}
+
+.icon-svg { 
+  width: 20px;
+  height: 20px;
+  display: block;
+  fill: var(--secondary-text-color);
 }
 
 .img-title {
@@ -438,9 +480,9 @@ ul {
   font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  text-align: center; 
   letter-spacing: 0.03em;
-
+  margin-bottom: 10px;
   color: var(--secondary-text-color);
 }
 
