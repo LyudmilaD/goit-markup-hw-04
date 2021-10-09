@@ -110,7 +110,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+  padding-top:32px;
+  padding-bottom:32px;
   color: var(--title-text-color);
 }
 .menu-link.menu-link-black {
@@ -149,6 +150,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top:32px;
+  padding-bottom:32px;
   color: var(--secondary-text-color);
 }
 .tel-link {
@@ -251,6 +254,8 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
+  text-align: center;
   border: 0px;
   border-radius: 4px;
   color: var(--third-text-color);
@@ -462,8 +467,14 @@ text-decoration: none;
   width: 20px;
   height: 20px;
   display: block;
+  cursor: pointer;
   fill: var(--secondary-text-color);
 }
+/*.icon-svg:hover,
+.icon-svg:focus {
+
+  fill: var(--title-text-color);
+}*/
 
 .img-title {
   font-family: var(--main-font);
@@ -487,6 +498,24 @@ text-decoration: none;
 }
 
 /*============END TEAM=============*/
+/*============OUR CLIENTS==========*/
+.section {
+  display: block;
+}
+.title-cl{
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03 em;
+text-align: center;
+color: var(--primary-text-color);
+}
+.clients-title {
+margin-bottom: 50px;
+}
+
+/*============OUR CLIENTS==========*/
 /*============FOOTER=============*/
 
 .footer {
