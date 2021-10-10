@@ -537,8 +537,8 @@ margin-bottom: 50px;
   height: 92px;
   color:var(--secondary-text-color);
   border-radius: 4 px;
-  border: 1px solid
-  var(--secondary-text-color);
+  border: 1px solid #AFB1B8;
+  
     border-top-color: ;
     border-top-style: ;
     border-top-width: ;
@@ -570,15 +570,83 @@ margin-bottom: 50px;
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
+  display: block;
 
   background-color: var(--secondary-background-color);
 }
+.block-footer{
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+}
+.contacts-block {
+margin-right: 70px;
+text-align: left;
+
+}
+.footer-add {
+  align-items: baseline;
+  text-align: left;
+  display: block;
+}
+.footer-invite {
+  display: block;
+  margin-bottom: 20px;
+  font-weight:700;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+}
+.footer-soc-list {
+  padding: 0;
+  display: flex;
+}
+
+.footer-soc-icon {
+justify-content: center;
+}
+.footer-link {
+  display: flex;
+  margin-right: 10px;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  
+}
+
+
+.footer-icon-svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  cursor: pointer;
+  fill: var(--third-text-color);
+  overflow: hidden;
+}
+
+.footer-soc-list {
+padding: 0;
+display: flex;
+}
+
+
 
 .desk-address {
   margin-top: 20px;
   margin-bottom: 9px;
   flex-direction: column;
+}
+.contacts {
+  margin-right: auto;
+  flex-direction: column;
+  text-align: :left;
 }
 
 .desk-mail {
@@ -598,7 +666,8 @@ margin-bottom: 50px;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
+  display: block;
+  margin-bottom: 20px;
   color: var(--third-text-color);
 }
 .web-logo-footer {
@@ -612,15 +681,18 @@ margin-bottom: 50px;
   cursor: pointer;
   color: var(--third-text-color);
   font-style: normal;
+  white-space: pre;
+  
 }
 .contacts-mail {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
+  
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+  
 }
 
 .contacts-tel {
@@ -628,10 +700,12 @@ margin-bottom: 50px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
+  
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
+
+
 
 /*============END FOOTER=============*/
 
