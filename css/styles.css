@@ -470,11 +470,12 @@ text-decoration: none;
   cursor: pointer;
   fill: var(--secondary-text-color);
 }
-/*.icon-svg:hover,
+.icon-svg:hover,
 .icon-svg:focus {
-
+  color: var(--title-text-color);
   fill: var(--title-text-color);
-}*/
+
+}
 
 .img-title {
   font-family: var(--main-font);
