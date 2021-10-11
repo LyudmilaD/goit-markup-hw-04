@@ -110,8 +110,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-top:32px;
-  padding-bottom:32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
 }
 .menu-link.menu-link-black {
@@ -150,9 +150,13 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-top:32px;
-  padding-bottom:32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  display: block;
+  display: flex;
   color: var(--secondary-text-color);
+  
 }
 .tel-link {
   font-family: var(--main-font);
@@ -160,6 +164,11 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  display: block;
+  display: flex;
   color: var(--secondary-text-color);
 }
 .mail-link-item {
@@ -167,6 +176,7 @@ ul {
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
+  align-items: center;
 }
 .mail-link-item:hover,
 .mail-link-item:focus {
@@ -179,7 +189,7 @@ ul {
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
-
+  align-items: center;  
 }
 .tel-link-item:hover,
 .tel-link-item:focus {
