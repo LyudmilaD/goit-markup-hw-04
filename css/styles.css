@@ -774,7 +774,7 @@ display: flex;
 
 .modal-btn-port-blue:hover,
 .modal-btn-port-blue:focus {
-  color: var(--title-text-color);
+  background-color: var(--title-text-color);
 }
 .modal-btn-port:hover,
 .modal-btn-port:focus {
