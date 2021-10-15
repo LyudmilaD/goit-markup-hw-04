@@ -57,8 +57,7 @@ ul {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  
 }
 
 .header-container {
@@ -383,19 +382,25 @@ ul {
 .team {
   background: var(--third-background-color);
 }
-
-
+.container.img {
+  width: 1200px;
+}
 .team-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+.team-item.list {
+
+  margin: -15px;
+}
+
 .img-title {
   margin-bottom: 10px;
 }
 .team-picture {
-  flex-basis: 270px;
+  flex-basis: calc(100%/4 - 30px);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background: var(--third-text-color);
@@ -443,6 +448,7 @@ ul {
 .soc-list {
   display: flex;
   padding: 0;
+
 }
 .soc-icon { 
 margin-right: 10px;
@@ -455,27 +461,25 @@ cursor: pointer;
   display: flex;
   justify-content: center;
 }
-.soc-link {
+.link.soc-link {
   display: flex;
   padding: 0;
   width: 44px;
   height: 44px;
-  border-radius: 22px;
-  
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
 }
 
-.link {
-text-decoration: none;
-}
 
 .icon-svg { 
   width: 20px;
   height: 20px;
   display: block;
   cursor: pointer;
-  fill: var(--secondary-text-color);
+  fill:  #AFB1B8;
+  
+  
 }
 
 .img-title {
@@ -500,10 +504,14 @@ text-decoration: none;
 }
  .link.soc-link:hover,
  .link.soc-link:focus {
-   color: var(--title-text-color);
-   background-color: var(--title-text-color);
+  background-color: var(--title-text-color);
+  color: var(--secondary-background-color);
 
  }
+
+
+
+
 /*============END TEAM=============*/
 /*============OUR CLIENTS==========*/
 .section {
@@ -591,9 +599,10 @@ text-align: left;
 }
 .footer-invite {
   display: block;
+  font-family: var(--main-font);
   margin-bottom: 20px;
-  font-weight:700;
-  font-size: 14 px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -710,10 +719,7 @@ fill:var(--third-text-color);
 .link.footer-link:focus {
   background-color: var(--title-text-color);
 }
-.link.footer-link.twitter {
-background-color:var(--title-text-color);
-fill:var(--third-text-color);
-}
+
 
 /*============END FOOTER=============*/
 
