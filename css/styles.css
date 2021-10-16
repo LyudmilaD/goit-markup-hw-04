@@ -521,6 +521,10 @@ cursor: pointer;
 .section {
   display: block;
 }
+.container {
+  text-align: center;
+}
+
 .title-cl{
 font-size: 36px;
 font-style: normal; 
@@ -536,23 +540,26 @@ margin-bottom: 50px;
 .list {
   list-style: none;
   padding-inline-start: 0;
-  display: flex;
   justify-content: center;
+  display: flex;
 }
 .clients-list {
   margin: 0;
-  padding: 0
-  ;
+  padding: 0;
+
 }
 .clients-picture {
   display: flex;
   margin-right: 30px;
-  
 }
+.clients-picture:last-child {
+  margin-right: 0;
+}
+
 .link {
   text-decoration: none;
   border-radius: 4px;
-  
+
 }
 .clients-link {
   display: flex;
@@ -568,6 +575,7 @@ margin-bottom: 50px;
   width: 106px;
   height: 60px; 
   fill: currentColor;
+  color: #AFB1B8;
 }
 .link.clients-link:hover,
 .link.clients-link:focus{
@@ -834,16 +842,18 @@ fill:var(--third-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
+  text-align: left;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .img-headline-subtitle {
   font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
+  text-align: left;
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 
