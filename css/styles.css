@@ -395,13 +395,17 @@ ul {
   justify-content: space-between;
 }
 .team-item.list {
-
   margin: -15px;
 }
 
 .img-title {
   margin-bottom: 10px;
+  text-align: center;
 }
+.img-subtitle {
+text-align: center;
+}
+
 .team-picture {
   flex-basis: calc(100%/4 - 30px);
   margin: 15px;
@@ -458,7 +462,9 @@ ul {
 margin-right: 10px;
 cursor: pointer;
 }
-
+.soc-icon:last-child {
+margin-right: 0;
+}
 .list {
   list-style: none;
   padding-inline-start: 0px;
